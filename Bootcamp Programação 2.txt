@@ -1,0 +1,2803 @@
+MÓDULO 2
+
+=====================================
+
+PRIMEIROS PASSOS PARA DESENVOLVIMENTO WEB
+
+=====================================
+
+A1
+
+
+Introdução geral sobre a internet.
+
+Começou em 1969. EUA. Arpanet. Departamento de Defesa. Guerra Fria. Interligar laboratórios. Primeiro e-mail.
+
+1982. Universidades. Holanda, Dinamarca e Suécia.
+1987. Liberado o uso comercial nos EUA.
+1992. CERN cria a world wide web. Dados acessíveis a qualquer pessoa com acesso à internet.
+
+No Brasil
+
+1988. FAPESP, UFRJ, LNCC.
+1994. Uso commercial. EMBRATEL.
+Conexão discada.
+2000. Banda larga.
+
+
+====================================
+
+TERMOS-CHAVE
+
+=====================================
+
+A2
+
+Download = baixar dados da internet
+upload= subir dados para internet
+navegador = software de navegação em rede
+banda larga = internet
+cache = Arquivos salvos no pc pelo site para facilitar o carregamento.
+crack = forma de piratear um software
+email = endereço eletronico
+emoticons/emoji= rostinhos
+gif/jpg/png= formatos de arquivos
+host = servidor ex:gmail
+html = liguagem de marcação, não faz funções...
+http = protocolo utilizado pela internet
+icone = simbolo
+link = ligação criada pela url
+url = endereço
+login/logon = acesso e sair
+mp3 = arquivo de audio
+multimídia = multi arquivos
+nick = nome
+online/offline
+pixel = elementos que formam imagem
+spam = emails massivos de lixo eletronico
+vírus = software malicioso
+keylogger = software que le tudo o que é digitado
+phising = forma de roubar dados online
+backup = copia de segurança
+blog = criação de sites
+vlog = diário em forma de vídeo
+cyber bullying = bullying no digital
+3g,4g,5g= velocidades de internets
+cookies = rastreamento de atividade online para realização de anuncios
+firewall = espécie de parede para não acessar sites inseguros.
+ip = forma de endereço pessoal da internet
+hacker = descobre falhas
+click bait = intenção de fazer a pessoa clicar
+fake news = noticias falsas na internet
+poodcast = espécie de programa de rádio na internet
+pop-up = caixinhas que aparecem no site
+youtuber = profissão do youtube
+
+============================================
+
+A INTERNET ATUALMENTE
+
+===================================================
+
+A3
+
+134 Milhões de brasileiros tem acesso à internet.
+
+47% das pessoas pesquisam sobre saúde na internet.
+
+==============================================
+
+OBJETIVOS DA AULA
+
+==============================================
+
+A4
+
+================================================
+
+O QUE SÃO REDES?
+
+===============================================
+
+A5
+
+Espinha dorsal = são estruturas parradudas que interligam redes. Cada pais costuma possuir uma ou mais. Geralmente são empresas de provedor de telefonia.
+
+Conexões:
+
+Dial-up
+ADSL ( banda larga)
+Rádio
+Satélite
+Móvel
+P2P
+
+Caminho inverso para internet chegar em casa.
+WWW
+DNS = transforma o endereço em número para o pc entender
+IP
+Classes de redes
+127.0.0.1 = local host
+
+
+Descubra o endereço de sites famosos no windows:
+
+Tecla windows + R
+Enter
+Digite ping<site>
+
+==================================================
+
+
+TCP/IP E UDP
+
+=================================================
+
+
+A6/7
+
+Protocolos de comunicação entre computadores em rede.
+
+-Transmission control protocol - protocolo de controle de transmissão
+
+-Internet protocol - protocol de internet
+modelo de camadas
+
+- 4 camadas
+1 física ex: placa de rede
+2 rede ex ip
+3 trasporte tcp, udp
+4 aplicação ftp, smtp, http
+
+UDP = 
+rápido
+não confiável
+carro do ovo
+livestream
+
+TCP =
+voltado a conexão
+handshake
+integridade, ordem dos dados
+aplicativo de mensagens de texto
+
+
+
+==================================================
+
+PORTAS / PORTO
+
+==================================================
+
+A8
+
+Portas por onde dados saem e chegam:
+
+20: FTP
+22: SSH
+25: SMTP
+53: DNS
+80: HTTP
+443: HTTPS
+
+===============================================
+
+ROTEADORES, SWITCHES, MODEMS
+
+===============================================
+
+A9
+
+Modulator-demodulator
+Hardware que converte dados em um formato que possa ser trasmitido de um computador para outro e lido por outro.
+
+.
+
+ROTEADOR
+
+Distribui internet para um ou mais dispositivos de uma rede.
+
+Pode fazer a comunicação entre redes.
+Pode ser "burro".
+
+=========================================
+
+A 10
+
+Quanto custa para uma operadora de telefonia móvel enviar uma sms?
+
+Nada, vazia, null.
+
+Como funciona?
+
+O celular troca naturalmente , alguns bits com as torres de comunicação.
+
+Operadora só lucra com isso.
+
+O MMS:
+Trasmissão de mensagens multimídia.
+
+
+
+===========================================
+
+A 11
+
+WIFI
+
+IEEE (i3e) empresa que tem muitas definições na internet.
+
+IEE n mais recente.
+
+SEGURANÇA
+
+WEP: Chaves de 64 bits e de 128 bits
+
+WPA: Chave trocada periodicamente
+
+WPA2 AES 802.11i
++segurança
++processamento
+melhor para sistemas caseiros
+
+Dispositivos na rede
+
+Impressora 
+scanner
+chromecast
+
+=============================================
+
+A12
+
+Bluetooth
+
+conexão-ponto-a-ponto
+
+
+-========================================
+
+A13
+
+
+Browser
+para ver um site, precisa de um programa que interprete as linguagens de programação.
+LP= linguagem de programação
+
+HTML= linguagem de marcação, consegue apenas alterar estilos.
+
+
+Página estática e página dinâmica
+Estática: Vc clica e não tem interação alguma.
+Dinâmica: Você interage com a página.
+
+===========================================
+
+A14
+
+D/XHTML = caindo em desuso.
+Quando o site era estático, ele era muito usado, mas como agora tudo é dinamico, quase não se usa.
+
+Hoje quase não há distinção de sites e aplicativos.
+Programa/software e aplicativo, está terminologia está diminuindo.
+
+E-commerce = Comércio eletrônico.
+
+
+===============================================
+
+A15
+
+Webserver
+Estático e dinâmico
+Estático: Servidor físico onde são armazenados arquivos, softwares e/ ou banco de dados.
+
+O dinâmico se refere aos softwares que estão presentes no seridor físico.
+
+Dinâmico
+
+Arquios file server
+aplicações application server
+Banco de dados database
+tudo junto e misturado na maior parte das vezes.
+
+==============================================
+
+A16
+
+Stacks:
+
+Pilhas de tecnologia
+Conjunto de software necessários e suficientes para executar um aplicativo/programa.
+
+Linguagens de programação.
+Ambientes e ferramentas de interação com o app/sw
+Capacidade e limitação de performance
+Pontos fortes e fracos do app/sw.
+
+
+
+
+==============================================
+A 17
+
+Front-end 
+
+Parte da frente
+
+Trabalha com software, aplicativo, web service
+interface, ui, ux
+lógica de programação, html, css
+jquery/js/ajax,php/ bootstrap/outros framewors
+
+back-end
+
+Parte de trás
+
+Servidores, bancos de dados
+meio de campo, entre interface e bancos de dados, regras de negócios, validações
+mysql, oracle, protocolos de comunicação, php, java, node.js.
+
+FullStack
+
+Profissional que sabe trabalhar em todas as camadas das tecnologias de desnvolvimento/execução de um app/sw.
+
+
+==================================================
+
+A18
+
+Principais LPs
+
+HTML (hipertag)
+CSS
+==
+javascript(jquery, ajax, diversas libs)
+php
+.net
+asp
+java
+ruby(on rails)
+python
+perl
+c/c++/c#
+
+===================================================
+
+A19
+
+TERMOS COMUNS
+
+404 - erro, página n existe
+algoritmo - passo a passo
+alt -texto alternativo
+api - pecinha de lego, funcionalidade a mais que consegue usar em outro lugar para executar uma ação
+aplicação
+back-end
+biblioteca/dll - conjunto de ferramentas disponíveis que permite fazer algumas coisas, acesso a banco de dados consigo ter alguns recursos a mais.
+bootstrap - framework js mais usados.
+breakpoints - Pontos chaves quando monta uma tela para diversos dispositivos, ou quando faz debugg, são os pontos de parada.
+browser
+bug
+cache
+código
+controle de versão - software que controla versões.
+cookies.
+
+debug - tentar descobrir o problema, ou depois que terminar, ver se tem alguma falha.
+deploy - pacote que manda para ser publicado.
+design adaptativo/responsivo - pode se adaptar.
+dns
+documentação externa/ interna/ interna é aqueles comentários do código.
+domínio
+DPI - proporção de pontos na tela, impressora e produção de imagens.
+editor de texto - 
+estrutura de dados
+favicon - incon site
+fontes - fonte de letra ou código conte
+framework caixa de ferramenta
+fontend
+ftp - forma de comunicação quase que exclusivamente para troca de arquivos.
+github/svn/cvs - controladores de versão.
+
+=================================================
+
+A 20
+
+HTTP (S) - protocolo de comunicação
+ip - npumero com que se identifica dispositivos em rede.
+linguagem - programação ou marcação
+meta tags - tags html que ficam no head que tem funções especificas, funções de SEO
+mpetodo ágil - xp, scrum, métodos de desenvolvimento de software que visam um desenvolvimento mais rápido e melhor do seu sistema.
+mobile
+mvc- arquitetura de software em que se separa o model (estrutura de dados), o view (parte da frente) e o controler que faz a lógica de programação.
+MVP - minimo produto viável, disponibilizado para teste.
+mysql - linguagem para banco de dados.
+SSL - camada de segurança do site.
+Ui
+Ux - qualquer pessoa que nunca tenha pego um iphone na mão precisa aprender a usar em menos de 9 segundos.
+Versão
+WYSIWYG - o que voce ve é o que você escreve, alterações visuais no site.
+
+================================================
+
+A21
+
+Aula prática
+
+Base de por onde começar.
+
+Nossa primeira aplicação teste
+PHP
+
+precisamos de um server web
+
+baixa o xampp, instala no local C.
+configura apache, config (httpd.conf)
+
+em: documentroot, colocar o diretório onde vai salvar os arquivos criados.
+
+Da o start, ficar verde está funcionando.
+
+criar 3 arquivos tipo txt e transforma em php.
+dois index e um página.
+
+abre index com notepad++
+
+<html>
+
+	<head>
+		<title>Meu primeiro site em PHP! Woohoo!</title>
+	</head>
+	
+	<body>
+	
+		<?php		//coloca para abrir código php
+			for ($i = 0 ; $i < 10 ; $i++) {
+				print ( "Linha número " . $i . "<br/>" );
+			}
+		?>
+		
+		</body>
+		
+		</html>
+
+
+
+concatena com ponto "."
+
+pesquisa no google: localhost
+
+Ele vai no servidor, pega o caminho, ve o que tem lá dentro e excuta.
+
+
+<html>
+
+	<head>
+		<title>Meu primeiro site em PHP! Woohoo!</title>
+		
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js"></sript>
+		
+		<style type="text/css">
+			.linha {
+				font-weight: bold;
+				color: green;
+				padding-left: 10px
+				line-height: 50px;
+			}
+		</style>
+	</head>
+	
+	<body>
+	
+		<?php
+		for ( $i = 0 ; $i < 10 ; $i++ ) {
+			print( "<span class=\"linha\">Linha número " . $i . "</span><br />");
+		}
+		?>
+		
+	</body>
+	
+	<script type="text/javascript">
+		$(document).ready(function() {
+			alert("Woohoo!");
+		});
+		</script>
+		
+</html>
+			
+
+
+digita no google: localhost/index2.php
+
+
+w3schools.com = aprenda linguagem de programação.
+
+======================================================================================================
+
+
+
+PARTE 2 MÓDULO 2
+INTRODUÇÃO A CRIAÇÃO DE WEBSITES COM HTML5 E CSS3
+
+
+======================================================================================================
+
+
+===================================================
+
+MATERIAL DE APOIO
+ 	TODO O MATERIAL DO MÓDULO ESTÁ AQUI
+
+===================================================
+
+
+HTML5
+
+
+Definição e estrutura básica
+Em 1991 Tim Berners-Lee criou essa linguagem de marcação para melhorar a comunicação entre ele e seus colegas de trabalho no CERN, desde então já surgiram 5 versões e o HTML se tornou a base da web.
+
+Com o HTML definimos o significado e a estrutura do conteúdo da web e, além de texto, nossas páginas precisam de imagens, vídeos e vários outros formatos e para isso temos os elementos HTML.
+
+Um elemento HTML é formado pela tag de abertura e seus atributos, o conteúdo e uma tag de fechamento. E mais a frente veremos que existem elementos que não tem tag de fechamento.
+
+Com esses elementos podemos agrupar tipos de conteúdo, alterar tamanho e forma de fontes e adicionar diferentes mídias ao nossa página na web.
+
+E agora podemos ver como é a estrutura básica de um arquivo HTML.
+
+A primeira linha do documento deve ser o <!DOCTYPE html>, apesar de parecer um elemento HTML ela apenas diz ao navegador que ele está lidando com um arquivo do tipo HTML5. Os elementos HTML vem logo abaixo.
+
+<html>
+
+A tag html é a raiz do seu documento, todos os elementos HTML devem estar dentro dela. E nela nós informamos ao navegador qual é o idioma desse nosso documento, através do atributo lang, para o português brasileiro usamos pt-BR.
+
+<head>
+
+A tag head contém elementos que serão lidos pelo navegador, como os metadados - um exemplo é o charset, que é a codificação de caracteres e a mais comum é a UTF-8, o JavaScript com a tag script, o CSS através das tags style e link - veremos a diferença quando falarmos sobre CSS - e o título da página com a tag title.
+
+<body>
+
+E dentro da tag body colocamos todo o conteúdo visível ao usuário: textos, imagens, vídeos.
+
+Prática
+Como exercício para esse curso iremos construir um site pessoal, e precisamos começar com a estrutura básica que acabamos de ver.
+
+Vamos criar um arquivo index.html e adicionar o doctype e os elementos html, head e body.
+
+Depois adicionaremos os elementos meta e title, no primeiro adicionamos o atributo charset com o valor UTF-8 para dizer ao navegador qual é a codificação dos caracteres e no segundo podemos colocar nosso nome.
+
+E por último escreveremos nosso nome dentro do elemento body apenas para enxergarmos isso no navegador.
+
+Semântica
+Durante muitos anos o elemento padrão no HTML era a div, construíamos nosso conteúdo todo baseado nela, e assim nascia a sopa de divs.
+
+Mas em 2014 saiu a quinta versão do HTML, e com ela vieram vários mudanças importantes, como performance e acessibilidade, mas nesse curso introdutório vamos focar na semântica.
+
+A semântica nos permite descrever mais precisamente o nosso conteúdo, agora um bloco de texto não é apenas uma div, agora é um article e tem mais significado assim. E temos vários elementos para ressignificar as divs:
+
+<section>
+
+Representa uma seção genérica de conteúdo quando não houver um elemento mais específico para isso.
+
+<header>
+
+É o cabeçalho da página ou de uma seção da página e normalmente contém logotipos, menus, campos de busca.
+
+<article>
+
+Representa um conteúdo independente e de maior relevância dentro de uma página, como um post de blog, uma notícia em uma barra lateral ou um bloco de comentários. Um article pode conter outros elementos, como header, cabeçalhos, parágrafos e imagens.
+
+<aside>
+
+É uma seção que engloba conteúdos relacionados ao conteúdo principal, como artigos relacionados, biografia do autor e publicidade. Normalmente são representadas como barras laterais.
+
+<footer>
+
+Esse elemento representa o rodapé do conteúdo ou de parte dele, pois ele é aceito dentro de vários elementos, como article e section e até do body. Exemplos de conteúdo de um <footer> são informações de autor e links relacionados.
+
+<h1>-<h6>
+
+Eles não foram criados na versão 5 do HTML e nem são específicos para semântica, mas servem para esse propósito. São utilizados para marcar a importância dos títulos, sendo <h1> o mais importante e <h6> o menos. Uma dica: use apenas um <h1> por página, pois ele representa o objetivo da sua página.
+
+Prática
+Dando continuidade ao nosso site iremos montar sua estrutura. Pensei em adicionarmos um cabeçalho com nosso nome, uma lista de posts (como um blog) e um rodapé para nossos contatos.
+
+Vamos abrir nosso arquivo index.html e começar pelo cabeçalho: criamos um <header> logo abaixo do <body> e colocamos o título da nossa página dentro de um <h1>.
+
+Depois criaremos a lista de postagens: abrimos um elemento section e dentro dele adicionamos outro <header> contendo um <h2>. Notem que eu posso ter mais de um <header> na página.
+
+Para criar nossa postagem adicionamos um <article> com um <header> e um <h3>.
+
+O último passo desta etapa é criar um rodapé para nossas informações de contato: crie um elemento footer antes de fechar o </body>.
+
+Não se preocupe com o layout e com conteúdo da página, nós vamos tratar isso mais a frente.
+
+Textos e links
+A criação do HTML foi motivada pela necessidade de compartilhar textos e documentos, e mesmo depois de quase 30 anos, com toda a evolução da web, isso ainda representa uma boa parte do conteúdo da web.
+
+Já falamos anteriormente sobre os elementos h1-h6 e, eles são essenciais para nos indicar visualmente a importância e localização de seções de texto na página, mas para textos maiores e mais densos usamos o elemento p.
+
+O <p> representa um parágrafo, mas ele não suporta apenas texto, podemos adicionar imagens, código, vídeos e vários outros tipos de conteúdo dentro dele.
+
+Um outro elemento interessante e extremamente necessário na web é o <a> - que significa anchor/âncora, ele representa um hyperlink, é ele que interliga vários conteúdos e páginas na web.
+
+O elemento a tem vários atributos, mas vamos focar em dois, o href e o target.
+
+O href representa o hyperlink para onde sua âncora aponta, pode ser uma página do seu ou de outro site, um e-mail e até mesmo um telefone, os dois últimos precisam dos prefixos mailto: e tel:, respectivamente.
+
+O target neste momento vai servir para nos ajudar a abrir nossos links em outra aba do navegador usando o valor _blank.
+
+Prática
+Vamos adicionar um texto fictício a nossa postagem: logo após o fechamento do </header> vamos adicionar um elemento p e inserir um texto que vamos retirar do site lipsum.com
+
+E em alguma parte deste texto vamos adicionar um hiperlink para outra página e um para nosso e-mail.
+
+Criarei um hyperlink para meu perfil no LinkedIn: adicione o hyperlink no atributo href e o valor _blank no atributo target, assim o link será aberto em outra aba. E em algum outro lugar do texto adicionarei meu e-mail e um link para ele, desta forma: <a href="mailto:lucas@vilaboim.com" target="_blank">lucas@vilaboim.com</a>
+
+Imagens
+A web também é feita de imagens e para representá-las temos o elemento <img>, ele é um daqueles elementos sem tag de fechamento.
+
+O elemento img é bem simples, contendo apenas 2 atributos próprios, o src e o alt.
+
+O src é obrigatório e guarda o caminho para a imagem que você quer mostrar na página.
+
+O alt não é obrigatório mas é altamente recomendado por melhorar a acessibilidade, ele mostra a descrição da imagem caso ela não carregue e leitores de tela usam esse atributo para descrever a imagem para o usuário saber o que ela significa.
+
+Prática
+Vamos adicionar uma imagem ao cabeçalho da página e uma imagem a postagem.
+
+Primeiro vamos colocar as imagens na pasta do nosso projeto. Para a imagem do cabeçalho eu escolhi uma foto minha com 100 pixels de largura e 100 pixels de altura e para a imagem da postagem eu procurei por html code no site Unsplash, escolhi uma das imagens e deixei ela com 960 pixels de largura por 322 pixels de altura.
+
+Dentro do primeiro <header> da página e antes do <h1> iremos adicionar um elemento img e no atributo src colocamos o caminho para a nossa foto, /lucas-vilaboim.jpg, e o atributo alt deve conter um significado para a imagem, como no meu caso é uma ilustração, colocarei Ilustração do rosto de Lucas Vilaboim.
+
+E dentro do <header> do <article> vamos fazer a mesma coisa, mas agora depois do <h3>, e no atributo alt colocaremos Editor de texto mostrando códigos HTML.
+
+Listas
+Os últimos elementos que veremos neste módulo são os relacionados a listas: <ul>, <ol> e <li>.
+
+Listas servem para agrupar uma coleção de itens, como uma lista de ingredientes ou, como será no nosso caso, uma lista com contatos.
+
+O elemento ul cria uma lista não ordenada, onde a ordem dos elementos não é importante, e é representada com pontos, círculos ou quadrados.
+
+O <ol> serve para criar lista ordenadas, nessas a ordem importa, portanto elas são representadas com números, algarismos romanos ou letras.
+
+E o elemento li é um item dentro de uma dessas listas. Um <li> pode conter vários tipos de conteúdos, como parágrafos, imagens e até outras listas.
+
+Prática
+Adicionaremos uma lista de contatos ao rodapé da nossa página, e para isso usaremos também o elemento a que vimos anteriormente.
+
+Crie um elemento ul e dentro dele adicione um <li> com um elemento a, no atributo href adicione o link de alguma rede social que você mantenha e, no conteúdo da âncora coloque o nome dessa rede.
+
+
+
+====================================================
+
+
+ESTRUTURA BÁSICA
+
+
+====================================================
+
+
+A 1
+
+
+
+HTML 1 Foi criado em 1991
+HTML 2 - 1995
+HTML 3 - 1997
+HTML4 - 1997
+HTML 5 - 2014
+
+ELEMENTO HTML
+
+
+É a base de um html, tudo dentro de um arquivo html é um elemento.
+
+começa com uma tag de abertura, diz qual o tipo de elemento, essa tag pode ter um atributo e esse atributo pode mudar uma funcionalidade, uma aparencia..., tem o conteudo desse elemento, e o fechamanto da tag.
+
+Ex.:
+<h1 class="titulo">Título</h1>
+
+ESTRUTURA BÁSICA
+
+<!DOCTYPE HTML> // Não é um elemento html apenas diz ao navegador o que tá escrevendo.
+<HTML>
+<HEAD>
+	<META>
+	<TITLE></TITLE>
+</HEAD>
+<BODY>
+</BODY>  //conteúdo da página.
+</HTML>
+
+
+========
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Matheus Balbi </title>
+    </head>
+    <body>
+        Bem Vindo Matheus
+    </body>
+</html>
+
+
+
+====================================================
+
+
+SEMANTICA PARTE 1
+
+
+====================================================
+
+
+A 2
+
+Durante anos o elemento padrão era a div.
+<div></div>
+A partir de 2014 foram criados elementos que troxeram mais funcionalidades.
+
+<section>
+sessão genérica de conteúdo
+
+<header>
+cabeçalho da página.
+
+<article>
+conteúdo relevante dentro da página.
+
+<aside>
+conteúdo relácionado ao conteúdo principal.
+
+<footer>
+rodapé da página.
+
+<h1>-<h6>
+
+Só pode haver um h1 dentro da página.
+
+
+
+===================================================
+
+SEMANTICA PARTE 2
+
+===================================================
+
+A 3
+
+Evoluindo site.
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Seja Bem Vindo(a)
+        </h1>
+    </header>
+    <section>
+        <header>
+            <h2>Posts</h2>
+        </header>
+        <article>
+            <header>
+                <h3>Post #1</h3>
+            </header>
+        </article>
+    </section>
+    <footer></footer>
+</body>
+</html>
+
+
+==================================================
+
+TAGS PARA TEXTOS E LINKS
+
+==================================================
+
+A 4
+
+<P>Coteúdo do artigo.</p> //podemos adicionar textos, links, imagens, videos e outros. Representa um parágrafo.
+
+
+==================================================
+
+TAGS PARA LINKS
+
+==================================================
+
+A 5
+
+<a>link</a>
+<a href="linkedin.com/in/matheusbalbioficial">LinkedIn</a>
+<a href="mailto:balbioficial@gmail.com">E-mail</a>
+
+<a target="_blank">link</a>
+
+o a é uma ancora, interliga diversos conteúdos na rede.
+
+href = hiperlink site externo, emails e telefones.
+
+target = serve para indicar como esse link será aberto
+
+_blank = será aberto em uma nova aba.
+
+
+
+
+==================================================
+
+EXERCÍCIO PRÁTICO
+
+==================================================
+
+A 6
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Seja Bem Vindo(a)
+        </h1>
+    </header>
+    <section>
+        <header>
+            <h2>Posts</h2>
+        </header>
+        <article>
+            <header>
+                <h3>Post #1</h3>
+                <P>
+                    Section 1.10.32 of "de Finibus Bonorum et Malo
+                    rum", written by Cicero in 45 BC
+                    "Sed ut <a href=" https://www.linkedin.com/in/matheusbalbioficial" target="_blank">perspiciatis unde omnis iste natus</a> error sit voluptatem accusantium <a href="mailto: balbioficial@gmail.com" target="_blank">doloremque laudantium,</a> totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+                </P>
+            </header>
+        </article>
+    </section>
+    <footer></footer>
+</body>
+</html>
+
+
+
+====================================================
+
+TAG IMAGEM
+
+====================================================
+
+
+
+<img>
+
+<img src="img/avatar.jpg">
+
+src= obrigatório, mostra o caminho.
+
+<img alt="xxxxxxxxxxxxx">
+alt= melhora acessibilidade
+
+
+
+====================================================
+
+EXERCÍCIO IMG
+
+====================================================
+A 7
+
+                <img src="image1.jpeg" alt="hamburguer suculento"/>
+
+
+
+====================================================
+
+COMO ORGANIZAR LISTAS COM HTML
+
+====================================================
+
+A 8
+
+Tags li, ul e ol
+
+Listas.
+Elas servem para agrupar seleção de itens.
+
+<ul>
+item 1
+item 2
+
+Ordem dos itens não é importante.
+
+<ol>
+1. item 1
+2. item 3
+ordem dos intens importantes, representados por números, letras, algorimos romanos
+
+<li>
+Item dessa lista.
+
+
+EXERCÍCIO
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <img src="image1.jpeg" alt="hamburguer suculento"/>
+        <h1>
+            Seja Bem Vindo(a)
+        </h1>
+    </header>
+    <section>
+        <header>
+            <h2>Posts</h2>
+        </header>
+        <article>
+            <header>
+                <h3>Post #1</h3>
+                <P>
+                    Section 1.10.32 of "de Finibus Bonorum et Malo
+                    rum", written by Cicero in 45 BC
+                    "Sed ut <a href=" https://www.linkedin.com/in/matheusbalbioficial" target="_blank">perspiciatis unde omnis iste natus</a> error sit voluptatem accusantium <a href="mailto: balbioficial@gmail.com" target="_blank">doloremque laudantium,</a> totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+                </P>
+            </header>
+        </article>
+    </section>
+    <footer>
+        <ul>
+            <li>
+                <a href="mailto:balbioficial@gmail.com" target="_blank">Email</a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/matheusbalbioficial/" target="_blank">LinkedIn</a>
+            </li>
+<li>
+    <a href="https://github.com/matheusbalbi" target="_blank">GitHub</a>
+</li>
+        </ul>
+    </footer>
+</body>
+</html>
+
+====================================================
+
+ESTILIZANDO ELEMENTOS, TEXTOS E LISTAS
+
+====================================================
+
+A 9
+
+INTRODUÇÃO AO CSS3
+
+CSS linguagem de estilo criada em 2003
+possui sintaxe simples.
+
+ids e classes podem representar quaisquer tipos de elementos
+
+<header id="header" class="header"></header>
+<header class="header"></header>
+
+
+classe é precedido por um ".ponto"
+id é precedido por um "#tralha"
+
+id só pode ser usado uma vez.
+
+cria um arquivo css dentro da mesma pasta e edita:
+
+
+#title, .subtitle, .posttitle {
+    color: blue;
+}
+
+.posttitle {
+    font-size: 16px;
+    font-style: italic;
+}
+
+
+====================================================
+
+CONCEITOS BÁSICOS
+
+====================================================
+
+A 10
+
+O navegador representa cada elemento html como uma caixa retangular, box model, ele tem 4 margens: margin; border; padding; content.
+
+body {
+    background: gray;
+}
+
+#title, .subtitle, .posttitle {
+    color: blue;
+}
+
+.posttitle {
+    font-size: 16px;
+    font-style: italic;
+}
+
+.post {
+    background-color: white;
+    padding: 10px;
+    border: 3px solid black;
+    margin: 10; 
+}
+
+.pximg1 {
+    width: 50px;
+    height: 50px;
+}
+
+====================================================
+
+
+MATERIAL DE APOIO
+		CSS3
+
+====================================================
+
+A 11
+
+CSS 3
+
+Definição e seletores
+
+Após a criação do HTML a necessidade de formatar as páginas ficou evidente, assim, em 1996, foi criada a linguagem de estilo que conhecemos por CSS.
+
+A sintaxe é bem simples e pode ser explicada com a frase "você cria regras de estilo para elementos ou grupos de elementos".
+
+Vamos usar um elemento HTML que vimos anteriormente, a âncora <a>, para exemplificar.
+
+Uma regra CSS é representada por um seletor ou um grupo de seletores, no nosso caso é o <a>, então dentro de um par de chaves adicionamos as declarações, no exemplo acima estamos alterando cor e tamanho da fonte dessa âncora, as declarações são formadas por uma propriedade e um valor.
+
+Percebam que podemos colocar vários seletores em uma regra separando-os por vírgula.
+
+E há um último detalhe nesse exemplo: a pseudo-classe. Elementos HTML sofrem alterações causadas pela interação do usuário, como mover o mouse por cima ou clicar nesse elemento.
+
+O a:hover do exemplo significa que a âncora também terá essa aparência quando o usuário passar o mouse por cima de um hyperlink.
+
+ 
+
+ID x Classe
+No exemplo anterior criamos uma regra que altera um elemento HTML diretamente, mas isso significa que todos os elementos <a> ficarão com aquela aparência, e normalmente temos sites mais complexos que precisam de várias regras diferentes para elementos iguais.
+
+Para ficar mais tangível vamos relembrar um pouco o site que começamos a fazer no módulo passado, ele tinha vários elementos header, mas não vamos querer que o header principal tenha a mesma formatação que o header de uma postagem, é aí que entram os IDs e Classes.
+
+O seletor que vimos no primeiro exemplo é um seletor de tipo, pois ele representa um elemento HTML, e com IDs e Classes podemos representar qualquer tipo de elemento mas há algumas diferenças entre eles:
+
+ID: é representado pelo símbolo # (hash) seguido de um nome para esse ID.
+
+Classe: a classe é representada de forma parecida do ID, mas é precedida por um ponto em vez do hash.
+
+E a diferença mais importante entre eles é a forma como devem ser usados: o ID só pode ser usado uma vez em uma página HTML enquanto a classe não tem restrições.
+
+ 
+
+Exercício
+Vamos adicionar algumas classes no nosso site e alterar alguns elementos, mas antes precisamos adicionar um arquivo CSS a nossa página.
+
+No módulo de HTML descobrimos que podemos adicionar CSS de duas formas, com o elemento style, e assim suas regras ficarão no arquivo HTML, ou podemos criar um arquivo CSS e adicioná-lo na página através do elemento link, e é essa forma que usaremos.
+
+Crie um elemento link dentro do head do seu arquivo e adicione os atributos rel="stylesheet" e href="style.css", o rel denota o tipo de arquivo que estamos incluindo na página e o href é o caminho para o arquivo. E na mesma pasta do arquivo HTML crie um arquivo chamado style.css.
+
+Agora sim vamos ao CSS, adicione um ID #title ao h1 da página, pois queremos que ele seja único, e depois adicione as classes .subtitle e .post_title ao h2 e h3, respectivamente.
+
+No arquivo CSS vamos mudar a cor desses três títulos, e depois alterar o tamanho da fonte do título da postagem.
+
+ 
+
+Box-model
+Quando estamos criando o layout de um site o navegador representa cada elemento HTML  como uma caixa retangular, isso é o box-model. E com CSS nós alteramos a aparência dessa caixa (largura, altura, cor de fundo, etc.). Essa caixa é composta por 4 áreas: o conteúdo, o padding, a borda e a margem.
+
+As margens (margin) são espaçamentos entre elementos;
+As bordas (border) ;
+O padding é um espaçamento entre as bordas e o conteúdo, a diferença para as margens é que declarações de imagem de fundo funcionam nele;
+O conteúdo (content) é o que o seu bloco representa, um texto, uma imagem, um vídeo;
+ 
+
+Exercício
+Para enxergamos o box-model vamos adicionar cores e bordas a alguns elementos.
+
+Primeiro adicionaremos uma cor de fundo para a visualização ficar mais fácil, usaremos a propriedade background com o valor #fcfcfc no elemento body.
+
+Depois vamos adicionar uma classe ao <article>, pode ser .post, e então vamos colocar a cor branca de fundo com a propriedade background e o valor #FFF. Agora conseguimos enxergar o content do box-model.
+
+Vamos adicionar um padding de 10 pixels neste mesmo article. Perceberam o espaçamento que surgiu em volta do nosso conteúdo?
+
+Agora adicionamos um borda mais escura a ele com a propriedade border. Vou falar mais detalhadamente sobre border mais a frente, mas por enquanto vamos deixar essa borda com 3 pixels de largura, o contorno sólido e a cor azul.
+
+E por último vamos adicionar uma margem do lado de fora do post com a propriedade margin e o valor 10 pixels.
+
+E agora inspecionando o nosso elemento conseguimos todas aquelas camadas citadas antes: o conteúdo em azul, o padding em verde, as bordas em marrom e as margens em laranja.
+
+E já que começamos a falar sobre bordas e cor de fundo, no próximo vídeo vamos nos aprofundar nessas propriedades.
+
+ 
+
+Estilizando elementos
+Agora que entendemos o box-model podemos focar em deixar nosso site mais bonito, então vamos repassar pelas propriedades já citadas:
+
+Padding e Margin
+Anteriormente usamos o padding e o margin da forma mais básica, com apenas um valor, mas eles são mais poderosos que isso. Se quisermos atribuir tamanhos diferentes para cada lado do box nós podemos, e vamos ver três formas de fazer isso.
+
+ 
+
+A primeira é colocando um valor para as partes superior e inferior e depois para os lados esquerdo e direito.
+
+O valor de 10 pixels se refere ao eixo Y, ou partes superior e inferior, e os 5 pixels se referem aos lados esquerdo e direito.
+
+ 
+
+A segunda forma é dando valores para cada lado do box.
+
+Então começamos pelo topo com 15 pixels, passamos o lado direito com 10 pixels, depois para a parte inferior com 5 pixels e por último o lado esquerdo com 0, e sempre nessa ordem.
+
+Uma boa dica também é que quando o valor for 0 não precisamos não precisamos colocar a unidade.
+
+ 
+
+A terceira forma é com as propriedades específicas para cada lado, até agora tínhamos visto atalhos para essas propriedades.
+
+Essa opção é mais usada quando temos o mesmo valor para 3 lados, e o quarto precisa ter um valor diferente, então usamos o padding com apenas um valor e uma dessas opções para representar o lado diferente.
+
+ 
+
+Background
+A propriedade background também é um atalho para várias propriedades, mas isso vocês podem absorver aos poucos, e uma boa opção de leitura é a documentação do MDN.
+
+Por enquanto veremos apenas como mudar a cor de fundo.
+
+ 
+
+E aqui temos 3 formas de colocar uma cor de fundo, e ainda existem outras.
+
+A primeira é pelo nome da cor em inglês, a segunda é pelo código hexadecimal e a terceira é usando apenas o atalho background.
+
+ 
+
+Border
+Vimos que a propriedade border pode ter 3 valores: a largura, a cor e o estilo, mas existem algumas particularidades nisso.
+
+A largura pode ser usada com várias unidades, como px, em e mm. A cor pode ser atribuída pelo nome ou por um código hexadecimal, assim como fizemos com o background, e o estilo é representada por palavras-chave, vamos ver algumas delas:
+
+ 
+
+solid: mostra uma borda simples e reta;
+
+dotted: são bolinhas com um pequeno espaçamento entre elas;
+
+dashed: forma uma linha tracejada.
+
+E aproveitando que mostrei esse código temos que falar sobre como separar a estilização dos lados de uma borda.
+
+E se você não quiser usar a propriedade border existem as propriedade específicas para cada aspecto de uma borda, são elas border-width para a largura, border-color para a cor e border-style para o estilo.
+
+Aqui temos o mesmo código anterior de duas formas diferentes, a primeira com o atalho border e a segunda com cada propriedade específica.
+
+E depois disso podemos juntar os lados com os aspectos de uma borda e criar uma regra mais específica ainda.
+
+ 
+
+Border-radius
+
+E a última propriedade é o border-radius, ele permite arredondar os cantos de um elemento. Podemos usar várias unidades, mas as mais comuns são os pixels e a porcentagem.
+
+Colocando apenas um valor mudamos todos os cantos do elemento, mas seguindo aquela mesma ordem que vimos no padding e margin - topo, direita, inferior e esquerda -  conseguimos alterar cada canto separadamente.
+
+ 
+Exercício
+Neste exercício vamos deixar o nosso site um pouco mais bonito usando as propriedades que acabamos de ver.
+
+Vamos aumentar o padding para 15 pixels e colocar uma margem de também de 15 pixels só na parte de baixo do post.
+
+Quando olhamos para os textos percebemos que os espaçamentos estão diferentes do restante do post, então vamos padronizar isso.
+
+No título do post vamos retirar todas as margens para depois colocar apenas uma margem inferior de 15 pixels. E no corpo do post precisamos adicionar uma classe e remover todas as margens para depois adicionar uma margem superior de 15 pixels.
+
+Podemos manter o background branco, mas vamos diminuir a largura das bordas para 2 pixels e mudar a cor para a mesma do texto - #505050 - e por último adicionaremos um border-radius, 5 pixels são suficientes. Podemos adicionar esse mesmo de valor de border-radius na imagem, para isso vamos acrescentar uma class a imagem antes.
+
+ 
+
+Estilizando textos
+Já sabemos que podemos mudar cor e tamanho de algumas fontes, e agora vamos nos aprofundar nisso.
+
+ 
+
+font-family
+Com o font-family podemos alterar a fonte dos nossos textos, como uma fonte da internet ou uma que esteja instalada no nosso computador, mas vamos nos ater às fontes seguras, chamadas de web safe fonts.
+
+Essas fontes são chamadas assim pois são encontradas em quases todos os sistemas e podem ser usadas sem preocupação.
+
+ 
+
+font-size
+O font-size nos ajuda a mudar o tamanho do texto, existem algumas unidades de medida para ele mas por enquanto os pixels são suficientes para nós.
+
+ 
+
+font-style
+Usamos o font-style para tornar um texto itálico, na maioria das vezes você usará apenas o valor italic para ele, mas se precisar tirar o itálico de um texto você pode usar o valor normal.
+
+
+====================================================
+
+A 12
+
+Padding e Margin
+
+roda no sentido horário para alteração de margem:
+
+.post {
+	padding: 15px 10px 5px 0;
+}
+
+Da pra por usando unidade específica para cada lado:
+
+.post {
+	padding-top: 15px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 0;
+}
+
+
+.post {
+	background-color: green;
+	'' ''	'' : #00800000; (exadecimal da cor.)
+	background-image: url("bg.png");
+	background-position: top;
+}
+
+.post {
+	background-color: green;
+	'' 	''	''	 :  código hexadecimal.
+	background: hexadecimal.
+
+BORDER
+
+Largura: pixels, centímetros, milímetros...
+cor: blue, #00000ff...
+Estilo: Sólida, pontilhada, tracejada
+
+.post {
+	border: 3px solid blue;
+	border-top: 2px dotted green;
+	border-right: 4px dashed pink;
+}
+
+
+border-wideth:3px;//largura
+color//cor
+style: solid;//estilo
+
+podemos usar varias unidades, mas as mais usadas são px e porcentagem.
+
+border-radios: 10px; ex.
+
+
+
+====================================================
+
+ESTILIZANDO TEXTOS
+
+====================================================
+
+A 13
+
+#title {
+font-family: Verdana;
+}
+
+.post_title {
+font-family: Verdana, Arial;
+} //adiciona duas caso uma não funcione a segunda entra como backup.
+
+font-size: altera o tamanho do texto.
+
+font-style: altera a aparência do texto. //italic, normal, negrit.
+
+font-weight: normal// altera o peso do texo, bold por exemplo.
+
+text-transform: uppercase; lowercase// maiusculo ou minusculo.
+
+capitalize: todas as primeiras letras de cada palavra ficam maiusculas.
+
+text-decoration: coloca linhas no texto.
+underline coloca linha abaixo do texto.
+overline coloca linha acima do texto.
+line-through traça linha no meio do texto cortando.
+
+
+====================================================
+
+ESTILIZANDO LISTAS
+
+====================================================
+
+A 14
+
+listas ordenas e listas não ordenas.
+
+Em uma lista não ordenada <ul>
+list-style-type: 
+
+square;//altera para um quadrado.
+upper-roman;// altera para um algarismo romano maiusculo.
+"\1F44D"// Mostra um emoji, simbolo do joinha.
+
+
+
+Da pra por imagem como marcador usando:
+
+list-style-image: url ("rocket.png");
+
+none: remove tudo
+
+css funciona como uma cascata um dentro do outro.
+Posso estilizar um elemento seguindo o fluxo.
+
+
+====================================================
+
+DIMENSÃO E ALINHAMENTO
+
+====================================================
+
+A 15
+
+width - altura
+height - largura
+em px ou %
+
+max-width - altura máxima //conteúdo se adequa
+max-height - largura máxima //conteúdo se adequa
+
+margin - serve para colocar espaçamento entre elementos e serve para alinhar automáticamente.
+valor alto.
+
+text align - serve para alinhar textos: left, right, center, justifi.
+
+centralizar imagem
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+
+====================================================
+====================================================
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img class="pximg1" src="image2.png" alt="anonimous"/>
+        <h1 id="title">
+            Você Está Sendo Monitorado
+        </h1>
+    </header>
+    <section>
+        <header>
+            <h2 class="subtitle">Somos Um</h2>
+        </header>
+        <article class="post">
+            <header>
+                <h3 class="posttitle">O Segredo Sera Revelado:</h3>
+                <P class="postcontent">
+                    <img class="maozinha" src="img3.jpg" alt="imagem do post afogamento"/>
+                    Section 1.10.32 of "de Finibus Bonorum et Malo
+                    rum", written by Cicero in 45 BC
+                    "Sed ut <a href=" https://www.linkedin.com/in/matheusbalbioficial" target="_blank">perspiciatis unde omnis iste natus</a> error sit voluptatem accusantium <a href="mailto: balbioficial@gmail.com" target="_blank">doloremque laudantium,</a> totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+                </P>
+            </header>
+        </article>
+    </section>
+    <footer>
+        <ul class="contact-list">
+            <li>
+                <a href="mailto:balbioficial@gmail.com" target="_blank">Email</a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/matheusbalbioficial/" target="_blank">LinkedIn</a>
+            </li>
+<li>
+    <a href="https://github.com/matheusbalbi" target="_blank">GitHub</a>
+</li>
+        </ul>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+.pximg1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.maozinha {
+    width: 150px;
+    height: 150px;
+}
+
+body {
+    background: white;
+    font-family: Verdana;
+    width: 900px;
+    margin:auto;
+}
+
+header {
+    background-color: goldenrod;
+}
+
+.post {
+    background-color: gray;
+}
+
+#title, .subtitle, .posttitle {
+    color: black;
+}
+
+#title {
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    text-align: center;
+}
+a {
+    background-color: gold;
+    text-decoration: underline;
+    color:black
+}
+
+.posttitle {
+    font-size: 16px;
+    font-style: italic;
+}
+
+ul {
+    text-decoration: underline
+}
+
+.post {
+    background-color: gray;
+    padding: 15px;
+    border: 3px solid black;
+    margin-bottom: 15; 
+    border-radius: 5px;
+}
+
+.postcontent {
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+.pximg1 {
+    margin-bottom: 15px;
+}
+
+.contact-list {
+    list-style-type: none;
+    padding: 15px;
+}
+
+footer {
+    background-color: goldenrod;
+}
+
+
+
+
+====================================================
+====================================================
+====================================================
+
+
+
+
+
+
+====================================================
+====================================================
+
+POSICIONANDO ELEMENTOS COM FLEXBOX EM CSS
+
+CRIAR PÁGINAS QUE SE ADAPTEM A DIVERSAS RESOLUÇÕES
+====================================================
+====================================================
+
+
+INTRODUÇÃO AO FLEX BOX
+
+====================================================
+
+
+A 1
+
+Flexbox foi projetado como um modelo de layout unidimensional e o seu método visa oferecer distribuição de espaço entre os internos de uma interface e recursos de alinhamento.
+
+Flex Conteiner
+
+É a tag que envolve os itens, será nela que iremos aplicar a propriedade "display: flex". Transforma todos os seus itens filhos em flex itens.
+
+propriedades relacionadas:
+display = inicializador do conteiner.
+flex-direction = fazer direcionamento de itens.
+flex-wrap = se aplica para quebra de linha ou não
+flex-flow = abreviação pros de cima.
+justify-content = alinha os itens de acorco com a direção
+align-items = alinha de acordo com o eixo.
+align=content = alinha as linhas do conteiner.
+
+FLEX ITEM
+
+São elementos filhos diretos do flex conteiner. E também podem se tornar flex container.
+
+PROPRIEDADES RELACIONADAS:
+
+Flex-grow = fator de crescimento
+flax-basis = inicial do item antes da distribuição
+flex-shrink = capacidade de redução
+flex = abreviação para as 3 de cima
+order = relacionado a ordem de distribuição.
+align-self = define o alinhamento de um item especifico.
+
+====================================================
+
+ESTRUTURA BÁSICA DO DISPLAY: FLEX
+
+====================================================
+
+A 2
+
+CSS FLEXBOX
+
+EXTENSSÃO: HTML SNIPPETS, LIVE HTML PREVIEWER.
+
+Display flex
+
+Torna a tag um elemento do tipo flex container, e assim automaticamente todos os seus filhos diretos desta tag, tornam-se em flex itens.
+
+====================================================
+
+PRÁTICA COM DISPLAY: FLEX
+
+====================================================
+
+
+A 3
+
+Ctrl + shift + p
+>show live server preview
+
+=========================
+
+cria html básico
+
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Display Flex</title>
+    <style>
+        .flex {
+            max-width: 300px;
+            padding: 10px;
+            border: 2px solid black;
+            display: flex;
+        }
+
+        .item {
+            background-color: aqua;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex">
+        <div class="item">item 1</div>
+        <div class="item">item 2</div>
+        <div class="item">item 3</div>
+    </div>
+</body>
+</html>
+
+========================================================================================================
+
+ESTRUTURA BÁSICA DE FLEX DIRECTION
+
+====================================================
+
+
+A 4
+
+É a propriedade que estabelece o eixo principal do container, definindo assim a direção que os flex item são colocados no flex container.
+
+linha horizonhatal
+coluna vertical.
+
+row(padrão): direção que escreve o texto.
+row-reverse: sentido oposto da direção.
+column: ordenação de cima pra baixo em coluna unica.
+column-reverse: ordenação inversa, de baixo pra cima.
+
+====================================================
+====================================================
+
+PRÁTICA COM FLEX DIRECTION
+
+====================================================
+
+
+A 5
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index2</title>
+
+    <style>
+        .flex-container {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            list-style: none;
+        }
+        .flex-item{
+            background: blue;
+            height: 50px;
+            width: 50px;
+            line-height: 50px;
+            font-size: 20px;
+            color: white;
+            text-align: center;
+            margin: 5px;
+
+        }
+
+        .row{
+            flex-direction: row;
+        }
+
+        .row-reverse {
+            flex-direction: row-reverse;
+        }
+        .row-reverse li{
+            background-color: red;
+        }
+
+        .column{
+            float: left;
+            flex-direction: column;
+        }
+
+        .column li {
+            background: orange;
+        }
+
+        .column-reverse{
+            float: right;
+            flex-direction: column-reverse;
+        }
+
+        .column-reverse li {
+            background: purple;
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+    
+    <ul class="flex-container row">
+        <li class="flex-item">1</li>
+        <li class="flex-item">2</li>
+        <li class="flex-item">3</li>
+        <li class="flex-item">4</li>
+        <li class="flex-item">5</li>
+    </ul>
+    
+    <ul class="flex-container row-reverse">
+        <li class="flex-item">1</li>
+        <li class="flex-item">2</li>
+        <li class="flex-item">3</li>
+        <li class="flex-item">4</li>
+        <li class="flex-item">5</li>
+    </ul>
+
+    <ul class="flex-container column">
+        <li class="flex-item">1</li>
+        <li class="flex-item">2</li>
+        <li class="flex-item">3</li>
+        <li class="flex-item">4</li>
+        <li class="flex-item">5</li>
+    </ul>
+
+    <ul class="flex-container column-reverse">
+        <li class="flex-item">1</li>
+        <li class="flex-item">2</li>
+        <li class="flex-item">3</li>
+        <li class="flex-item">4</li>
+        <li class="flex-item">5</li>
+    </ul>
+
+</body>
+</html>
+
+
+====================================================
+====================================================
+
+ESTRUTUTRA BÁSICA DO FLEX WRAP
+
+====================================================
+====================================================
+
+
+A 6
+
+Define ou não a quebra de linha do nosso container.s
+
+nowrap: não permite quebra de linha.
+wrap: permite a quebra de linha assim que um dos flex itens não puder mais ser compactado.
+
+wrap-reverse: quebra de linha no sentido contrário, joga as linhas completas para baixo.
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+
+    .flex-container {
+        display: flex;
+        border: 2px solid black;
+        max-width: 310px;
+        flex-direction: column;
+    }
+
+    .item {
+        font-size: 24px;
+        height: 50%;
+        text-align: center;
+        width: 100px;
+        line-height: 50px;
+        min-width: 100px;
+}
+
+.nowrap{
+    flex-wrap: nowrap;
+}
+
+.blue {
+    background-color: blue;
+}
+.green{
+    background-color: lightgreen;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.warp {
+    flex-wrap: wrap;
+}
+
+.warp-reverse {
+    flex-wrap: wrap-reverse;
+}
+</style>
+</head>
+
+<body>
+        <h1>no wrap</h1>
+    <div class="flex-container nowrap">
+        <div class="item orange">1</div>
+        <div class="item green">2</div>
+        <div class="item blue">3</div>
+        <div class="item orange">4</div>
+    </div>
+<h1>
+    wrap
+</h1>
+
+<div class="flex-container warp">
+    <div class="item green">1</div>
+    <div class="item blue">2</div>
+    <div class="item orange">3</div>
+    <div class="item orange">4</div>
+
+
+</div>
+
+<h1>wrap reverse</h1>
+
+
+<div class="flex-container warp-reverse">
+    <div class="item green">1</div>
+    <div class="item blue">2</div>
+    <div class="item orange">3</div>
+    <div class="item orange">4</div>
+
+
+</div>
+</body>
+</html>
+
+====================================================
+====================================================
+
+
+ESTRUTUTRA BÁSICA E PRÁTICA COM FLEX FLOW
+
+
+====================================================
+
+
+A 4
+
+É um atalho para as propriedades flex-direction e flex-wrap.
+
+Porém seu uso não é tão comum, visto que, quando mudamos o flex-direction para column, mantemos o padrão do flex-wrap que é nowrap.
+
+====================================================
+====================================================
+
+Justify Content
+
+====================================================
+
+Essa propriedade vai se encarregar de alinhar os itens dentro do container de acordo com a direção pretendida e tratar da distribuição de espaçamento entre eles.
+
+Flex-start: inicio do container.
+flex-end: final do container.
+center: ao centro do container.
+space-between: cria um espaçamento igual etre os elementos.
+space-around: os espaçamentos do meio são duas vezes maiores que o inicial e final.
+
+====================================================
+====================================================
+
+ESTRUTURA BÁSICA E PRÁTICA COM ALIGN ITEMS
+
+====================================================
+
+A 5
+
+Trata do alinhamento dos flex itens de acordo com o eixo do container.
+
+center: alinhamento dos itens ao centro.
+stretch: padrão, e os flex itens cresçam igualmente.
+flex-start: alinhamento dos itens no início.
+flex-end: alinhamento dos itens no final
+baseline: alinhamento de acordo com a linha base da tipografia dos itens.
+
+====================================================
+====================================================
+
+ESTRUTURA BÁSICA E PRÁTICA COM ALIGN CONTENT
+
+====================================================
+
+A 6
+
+Flex-grow:
+Define a proporcionalidade de crescimento dos itens, respeitando o tamanho de seus conteúdos internos.
+
+Obs.: Não irpa funcionar caso tenhamos adicionado justify-content ao nosso flex container.
+
+
+
+====================================================
+====================================================
+
+ESTRUTURA BÁSICA DO FLEX BASIS
+
+====================================================
+
+A 7
+
+Flex-basis: É a propriedade que estabelexe o tamanho inicial do item antes das distribuições de espaçõ restante dentro dele, usando como base o conteúdo interno disposto.
+
+pode ter o auto, dimensões como px, %... ou 0.
+
+
+====================================================
+
+ESTRUTURA BÁSICA DO FLX SHRINK
+
+====================================================
+
+A 8
+
+flex-shrink: é a propriedade que estabelece a capacidade de redução ou compressão do tamanho de um item.
+
+
+
+====================================================
+====================================================
+
+ESTRUTURA BÁSICA E PRÁTICA COM FLEX
+
+====================================================
+
+A 9
+
+
+Flex: Atalho ou abreviação para grow, shrink, basis.
+
+/*grow= 2, shrink= 1, basis= 0 */
+
+
+
+====================================================
+====================================================
+
+ESTRUTURA BÁSICA E PRÁTICA COM ORDER
+
+====================================================
+
+A 10
+
+Order: lida diretamente com a ordenação dos itens.
+
+
+por padrão é 0.
+
+===================================================
+===================================================
+
+ESTRUTURA BÁSICA E PRÁTICA COM ALIGN SELF
+
+===================================================
+
+A 11
+
+align-self = é a propriedade que estabelece o alinhamento de modo individual de modo individual sobre um determinado item.
+
+Valors possíveis
+
+auto: valor padrão.
+flex-start: ao inicio do container.
+flex-end: ao final do container.
+center: relativo ao centro de acordo com o eixo.
+stretch: ocupa todo os espaço relativo.
+baseline: utiliza a linha base da tipografia
+
+====================================================
+====================================================
+
+PROJETO INTEGRADOR
+
+FLEX PROJETO
+
+====================================================
+
+A 12
+
+Vamos desenvolver uma lp relacionada a uma agência de turismo.
+
+baixar arquivo html em:
+https://gitlab.com/karensantos/project-flexbox-dio
+
+Abrir a pasta flex-projeto
+
+
+
+STYLE:::::::
+
+
+
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'opens sans', sans-serif;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+div img{
+    display: block;
+    width: 100%;
+}
+
+.flex-container{
+    display: flex;
+    max-width: 992px;
+    margin: auto;
+    width: 100%;
+    min-width: 320px;
+
+}
+
+header{
+    background-color: #122A57;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+header .list-items{
+    display: flex;
+    max-width: 260px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-items li a{
+    color: #fff
+}
+
+header .menu {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.apresentacao{
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao .texto-apresentacao{
+    min-height: 200px;
+    
+}
+
+.texto-apresentacao h1{
+    color: #122A57;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.texto-apresentacao a{
+    background-color: #122A57;
+    color: #fff;
+    text-align: center;
+    border-radius: 30px;
+    width: 220px;
+    display: block;
+    text-decoration: none;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#quem-somos{
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#quem-somos h2{
+    font-size: 32px;
+    color: #122A57;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#quem-somos h2::before{
+    content: "";
+    height: 50px;   
+    width: 5px;
+    margin-right: 5px;
+    background-color: #122A57;
+    position: relative;
+}
+
+#quem-somos p{
+margin-bottom: 10px;
+width: 90%;
+}
+
+#quem-somos img{
+min-width: 420px;
+}
+
+.container-externo{
+    background-color: #122A57;
+    width: 100%;
+}
+
+#servicos{
+ flex-direction: column;
+ padding: 100px 0;   
+}
+
+#servicos h2{
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.list-servicos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-servicos .item-servicos{
+    text-align: center;
+}
+
+.item-servicos a{
+    width: 220px;
+    background-color: #fff;
+    border-radius: 30px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 20px;
+    line-height: 50px;
+    padding: 5px 10px;
+    color: #122A57;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.item-servicos p{
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.item-servicos img{
+    width: 80%;
+    margin: auto;
+}
+
+#planos{
+    flex-direction: column;
+    min-height: 100vh;
+    padding-top: 50px;
+}
+
+#planos h2{
+  font-size: 32px;
+
+}
+
+.list-planos{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.item-plano{
+    flex: 1;
+    border: 2px solid #122A57;
+    margin-right: 20px;
+    max-width: 240px;
+    
+}
+
+.btn{
+    background-color: #122A57;
+    color: #fff;
+    text-align: center;
+    border-radius: 30px;
+    width: 220px;
+    display: block;
+    text-decoration: none;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.item-plano .btn{
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.item-plano h3{
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.item-plano h3::after{
+    content: "";
+    background-color: #122A57;
+    width: 100%;
+    height: 3px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.item-plano ul{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.item-plano ul li{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.item-plano ul li::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #122A57;
+    margin-right: 5px;
+}
+
+footer{
+    background-color: #122A57;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+footer .footer{
+    justify-content: space-between;
+    color: #fff;
+}
+
+/*mobile */
+
+@media(max-width:992px){
+    .flex-container{
+        flex-direction:column;
+    }
+
+    .apresentacao{
+        flex-direction: column-reverse;
+        
+    }
+
+    .apresentacao .texto-apresentacao{
+        width: 100%;
+    }
+    #quem-somos{
+        flex-direction: column-reverse;
+    }
+
+    #quem-somos img{
+        min-width: 320px;
+        margin: auto;
+    }
+
+    .list-servicos{
+        flex-direction: column;
+    }
+
+    .item-servicos img{
+        width: 50%;
+        margin: auto;
+    }
+
+    .list-planos{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 20px;
+
+    }
+
+    .list-planos .item-plano{
+        max-width: 90%;
+        margin: auto;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+INDEX::::::::
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Turismos</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnet" href="https://fonts.googleapis.com">
+    <link rel="preconnet" href="https://fonts.fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Opens+Sans:ital,wht@0,300;0,400;0,600;0,700;1,300;1,400;1,600&display=swap">
+
+</head>
+<body>
+    <header>
+        <div class="flex-container menu">
+        <div><h1>FlexTurismos</h1></div>
+        <ul class="list-items">
+            <li><a href="#quem-somos">Quem Somos</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#planos">Planos</a></li>
+        </div>
+        </ul>
+    </header>
+
+    <div class="flex-container apresentacao">
+        <div class="texto-apresentacao">
+            <h1>Flex <br>Turismos</h1>
+            <p>O melhor serviço para você!</p>
+            <a href="">Saiba Mais!</a>
+        </div>
+
+        <div>
+            <div><img src="./images/0-main.png" alt="banner de apresentação"></div>
+        </div>
+    </div>
+
+    <div class="flex-container" id="quem-somos">
+        <div>
+            <h2>Quem somos</h2>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+            <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+        </div>
+        <div>
+            <img src="./images/1-quem-somos.png" alt="balcão de atendimento">
+        </div>
+    </div>
+
+    <div class="container-externo">
+        <div class="flex-container" id="servicos">
+            <div>
+                <h2>Serviços</h2>
+            </div>
+
+            <div class="list-servicos">
+                <div class="item-servicos">
+                    <div><img src="./images/icon-2.png" alt="hospedagens"></div>
+                    <p>Hospedagens</p>
+                    <a href="#">Comprar Agora</a>
+                </div>
+
+                <div class="item-servicos">
+                <div><img src="./images/icon-1.png" alt="pacote de viagens"></div>
+                <p>Pacotes de viagens</p>
+                <a href="#">Comprar Agora</a>
+                </div>
+
+                <div class="item-servicos">
+                    <div><img src="./images/icon-3.png" alt="roteiros personalizados"></div>
+                    <p>Roteiros personalizados</p>
+                    <a href="#">Comprar Agora</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="flex-container" id="planos">
+
+            <div>
+                <h2>
+                    Planos
+                </h2>
+            </div>
+
+        <div class="list-planos">
+            
+            <div class="item-plano">
+                <h3>Plano 1</h3>
+                <ul>
+                    <li>Suporte 24h</li>
+                    <li>Serviços de quarto</li>
+                    <li>Guia turístico</li>
+                </ul>
+                <a href="#" class=" btn">Saiba Mais!</a>
+            </div>
+
+            <div class="item-plano">
+                <h3>Plano 2</h3>
+                <br>
+                <ul>
+                    <li>Suporte 24h</li>
+                    <li>Serviços de quarto</li>
+                    <li>Guia turístico</li>
+                    <li>Roteiro de trilhas</li>
+       
+                </ul>
+                <a href="#" class=" btn">Saiba Mais!</a>
+            </div>
+
+            <div class="item-plano">
+                <h3>Plano 3</h3>
+                <br>
+                <ul>
+                    <li>Suporte 24h</li>
+                    <li>Serviços de quarto</li>
+                    <li>Guia turístico</li>
+                    <li>Roteiro de trilhas</li>
+                    <li>Serviço personalizado</li>
+                    <li>Área Vip</li>
+                </ul>
+                <a href="#" class=" btn">Saiba Mais!</a>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="flex-container footer">
+            <p>&copy; 2021 CSS Flexbox</p>
+            <p>Desenvolvido por: Matheus Balbi</p>
+        </div>
+        
+    </footer>
+</body>
+</html>
+
+
+
+====================================================
+====================================================
+
+PROJETO FLEX BOX
+	RECRIANDO A PAG INICIAL DO INSTAGRAM
+
+====================================================
+
+abre um index html
+
+
+
+
+
+
+.profile-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 70%;
+    overflow: hidden; /*para a imagem não ultrapassar os limites da div*/
+}
+
+
+
+
+
+
+STYLE.CSS
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.instagram-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+
+.instagram-phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.instagram-phone img{
+    height: 40rem;
+}
+
+.instagram-logo {
+    width: 60%;
+    height: 50%;
+}
+
+.instagram-continue {
+    display: flex;
+    align-items: center; /*horizontal*/
+    justify-content: space-around; /*vertical*/
+    flex-direction: column;
+    width: 50%;
+    min-height: 30rem;
+    
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: aliceblue;
+    margin-top: 5%;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+}
+
+.group:nth-child(1) { /*pega os filhos do elemento*/
+    min-height: 19rem;
+}
+
+.instagram-logo {
+    height: 95px;
+}
+
+.profile-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 70%;
+    overflow: hidden; /*para a imagem não ultrapassar os limites da div*/
+}
+
+.profile-photo img {
+    height: 6rem;
+}
+
+.instagram-login {
+    background-color: #0095f6;
+    color: white;
+    margin-top: 5px;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.instagram-logout {
+    color: #0095f6;
+    margin-top: 1rem;
+}
+
+.not-account {
+    color: rgb(160, 160, 160);
+    font-weight: lighter;
+
+}
+
+.link-blue {
+    color: #0095f6;
+}
+
+.get-app {
+    font-weight: bold;
+}
+
+.get-the-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.download {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly; /*espaço no centro e meio iguais*/
+    align-items: center;
+    padding: 1rem;
+}
+
+.app-download {
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.app-download:nth-child(1) {
+    background-image: url(images/app-store.png)
+}
+
+.app-download:nth-child(2) {
+    background-image: url(images/google-play.png)
+}
+
+.contact {
+    display: flex;
+    position: absolute;
+      bottom: 0;
+      left: 0;
+      margin: 10px;
+}
+
+/* media queries */
+
+@media (max-width: 1024px) {
+    .instagram-wrapper {
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+    body {
+        background-color: white;
+    }
+    .instagram-wrapper {
+        width: 90%;
+    }    
+    .instagram-phone {
+        display: none;
+    }   
+    .instagram-continue{
+        width: 100%;
+    }
+    .group {
+        background-color: white;
+        border: 1px solid transparent;
+    }
+}
+
+
+
+
+
+
+
+HTML
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="instagram-wrapper">
+        <div class="instagram-phone">
+            <img src="images/image-cel-2.png" alt="imagem celular">
+        </div>
+        <div class="instagram-continue">
+            <div class="group">
+                <img src="images/instagram-logo.png" class="instagram-logo" alt="logo-do-instagram">
+                    <div class="profile-photo">
+                        <img src="images/photo-profile.png" alt="foto de perfil insta">
+                    </div>
+                    <a href="#" class="instagram-login">Continue como Matheusbalbi_</a>
+                    <a href="#" class="instagram-logout">Remover conta</a>
+            </div>
+            <div class="group">
+                <p class="not-account">
+                    Não é Matheusbalbi_?
+                </p>
+                <p class="not-account">
+                    <span class="link-blue">Alternar contas</span>
+                    Ou
+                    <span class="link-blue">Inscreva-se</span>
+                </p>
+            </div>
+            <div class="get-the-app">
+                <p class="get-app">Baixe o aplicativo</p>
+                <div class="download">
+                    <a href="#" class="app-download"></a>
+                    <a href="#" class="app-download"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <div class="contact">
+        Feito por: Matheus Balbi |
+                    <a href="mailto:balbioficial@gmail.com" target="_blank"> Email |</a>
+                    <a href="https://www.linkedin.com/in/matheusbalbioficial/" target="_blank"> LinkedIn |</a>
+                    <a href="https://github.com/matheusbalbi" target="_blank"> GitHub |</a>
+        </div>
+</footer>
+</html>
+
+
+====================================================
+====================================================
